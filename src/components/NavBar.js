@@ -2,7 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
-function NavList(){
+
+
+
+
+export const NavBar = () =>{
     return(
         <nav>
             <ul>
@@ -10,16 +14,5 @@ function NavList(){
                 <li><NavLink className="home-link" to="/home">Home</NavLink></li>
             </ul>
         </nav>
-
-    )
-
-
-}
-
-
-
-export const NavBar = () =>{
-    return(
-        <NavList/>
     )
 }
